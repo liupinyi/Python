@@ -6,7 +6,7 @@ class Node: # This is the Class Node with constructor that contains data variabl
 
 def display(tree): #In Order traversal of the tree
 
-    if tree is None: 
+    if tree is None:   
         return
 
     if tree.left is not None:
